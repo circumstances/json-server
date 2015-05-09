@@ -4,7 +4,8 @@
 
 Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
 
-For a live running version, see [JSONPlaceholder](http://jsonplaceholder.typicode.com).
+  * [JSONPlaceholder - Live running version](http://jsonplaceholder.typicode.com)
+  * [Online video tutorial - Creating demo APIs with json-server](https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server)
 
 ## Example
 
@@ -37,7 +38,7 @@ Also, if you make POST, PUT, PATCH or DELETE requests, changes will be automatic
 
 ## Routes
 
-Here are all the available routes.
+Based on the previous `db.json`, here are all the available routes.
 
 ```
 GET   /posts
@@ -113,7 +114,7 @@ $ json-server http://jsonplaceholder.typicode.com/db
 You can use JS to programmatically create data:
 
 ```javascript
-module.exports = function () {
+module.exports = function() {
   data = { users: [] }
   // Create 1000 users
   for (var i = 0; i < 1000; i++) {
@@ -149,7 +150,7 @@ You can deploy JSON Server. For example, [JSONPlaceholder](http://jsonplaceholde
 
 ## Links
 
-### Video tutorial
+### Video
 
 * [Creating Demo APIs with json-server on egghead.io](https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server)
 
